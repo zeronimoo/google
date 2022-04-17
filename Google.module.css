@@ -1,0 +1,86 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.navi {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: absolute;
+}
+
+.navi_icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.navi_icon img {
+  width: 50px;
+  height: 50px;
+  color: beige;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.input img {
+  height: 30px;
+  position: absolute;
+  padding-left: 15px;
+}
+
+.input input {
+  width: 600px;
+  height: 45px;
+  border-radius: 100px;
+  padding-inline-start: 50px;
+}
+
+.icons {
+  width: 600px;
+  height: 120px;
+  display: flex;
+}
+
+.icon_block {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_block:hover {
+  background-color: white;
+}
+
+.icon_block img {
+  width: 50px;
+}
